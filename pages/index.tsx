@@ -1,10 +1,10 @@
-import { Heading } from '@chakra-ui/react'
 import type { NextPage } from 'next'
+import HeaderBar from '../components/HeaderBar'
 
 const Home: NextPage = () => {
   return (
     <>
-      <Heading>Howdy!</Heading>
+      <HeaderBar />
     </>
   )
 }
